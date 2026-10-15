@@ -1,0 +1,17 @@
+{
+  "Group": "br.com.lutiplay",
+  "Name": "LutiRPG",
+  "Version": "0.3.4",
+  "Description": "Classes, atributos e 60 missoes de progressao. Build para Hytale 0.7.2.",
+  "Authors": [{"Name":"Luti Play"}],
+  "Main": "br.com.lutiplay.rpg.LutiRpgPlugin",
+  "ServerVersion":"=0.7.2",
+  "Dependencies":{},
+  "OptionalDependencies":{},
+  "LoadBefore":{},
+  "SubPlugins":[],
+  "DisabledByDefault":false,
+  "IncludesAssetPack":true
+}
+
+

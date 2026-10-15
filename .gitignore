@@ -1,0 +1,17 @@
+.gradle/
+build/
+out/
+libs/*.jar
+*.class
+.idea/
+tools/jdk/
+tools/jdk.zip
+tools/cfr.jar
+tools/classes/
+tools/decompiled/
+tools/assets/
+tools/api/
+test-server/
+api-classes.txt
+api-candidates.txt
+asset-index.txt

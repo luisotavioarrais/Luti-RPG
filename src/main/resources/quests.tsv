@@ -1,0 +1,61 @@
+# ID	FASE	TITULO	DESCRICAO	OBJETIVOS	XP	PREMIO_ID	QUANTIDADE
+Q01	01-Sobrevivencia	Recolha madeira	Objetivo de progressao da campanha.	collect:wood:20	120	wood	4
+Q02	01-Sobrevivencia	Recolha pedra	Objetivo de progressao da campanha.	collect:stone:20	165	wood	4
+Q03	01-Sobrevivencia	Monte seu primeiro equipamento	Objetivo de progressao da campanha.	craft:basic_tool:1	210	wood	4
+Q04	01-Sobrevivencia	Explore a redondeza	Objetivo de progressao da campanha.	explore:starting_area:1	255	wood	4
+Q05	01-Sobrevivencia	Colete alimento	Objetivo de progressao da campanha.	collect:food:12	300	wood	4
+Q06	01-Sobrevivencia	Prepare uma refeicao	Objetivo de progressao da campanha.	craft:cooked_food:1	345	wood	4
+Q07	01-Sobrevivencia	Crie um abrigo	Objetivo de progressao da campanha.	craft:building_piece:15	390	wood	4
+Q08	01-Sobrevivencia	Enfrente as primeiras criaturas	Objetivo de progressao da campanha.	kill:hostile_basic:5	435	wood	4
+Q09	02-Cobre	Encontre cobre	Objetivo de progressao da campanha.	collect:copper_ore:12	480	stone	4
+Q10	02-Cobre	Funda cobre	Objetivo de progressao da campanha.	craft:copper_ingot:8	525	stone	4
+Q11	02-Cobre	Forje uma arma de cobre	Objetivo de progressao da campanha.	craft:copper_weapon:1	570	stone	4
+Q12	02-Cobre	Vista a primeira armadura	Objetivo de progressao da campanha.	craft:copper_armor:1	615	stone	4
+Q13	02-Cobre	Derrote hostis com seu equipamento	Objetivo de progressao da campanha.	kill:hostile_basic:10	660	stone	4
+Q14	02-Cobre	Colete madeira adicional	Objetivo de progressao da campanha.	collect:wood:32	705	stone	4
+Q15	02-Cobre	Melhore sua oficina	Objetivo de progressao da campanha.	craft:workstation_upgrade:1	750	stone	4
+Q16	02-Cobre	Explore uma caverna	Objetivo de progressao da campanha.	explore:cave:1	795	stone	4
+Q17	03-Exploracao	Descubra um novo bioma	Objetivo de progressao da campanha.	explore:new_biome:1	840	copper_ore	4
+Q18	03-Exploracao	Encontre uma ruina	Objetivo de progressao da campanha.	explore:ruins:1	885	copper_ore	4
+Q19	03-Exploracao	Colete suprimentos	Objetivo de progressao da campanha.	collect:food:20	930	copper_ore	4
+Q20	03-Exploracao	Cace hostis locais	Objetivo de progressao da campanha.	kill:hostile_basic:15	975	copper_ore	4
+Q21	03-Exploracao	Melhore suas ferramentas	Objetivo de progressao da campanha.	craft:improved_tool:1	1020	copper_ore	4
+Q22	03-Exploracao	Encontre outro ponto de interesse	Objetivo de progressao da campanha.	explore:point_of_interest:1	1065	copper_ore	4
+Q23	03-Exploracao	Acumule cobre	Objetivo de progressao da campanha.	collect:copper_ore:20	1110	copper_ore	4
+Q24	03-Exploracao	Explore mais uma caverna	Objetivo de progressao da campanha.	explore:deep_cave:1	1155	copper_ore	4
+Q25	04-Ferro	Descubra ferro	Objetivo de progressao da campanha.	collect:iron_ore:10	1200	iron_ore	4
+Q26	04-Ferro	Refine ferro	Objetivo de progressao da campanha.	craft:iron_ingot:8	1245	iron_ore	4
+Q27	04-Ferro	Forje arma de ferro	Objetivo de progressao da campanha.	craft:iron_weapon:1	1290	iron_ore	4
+Q28	04-Ferro	Forje armadura de ferro	Objetivo de progressao da campanha.	craft:iron_armor:1	1335	iron_ore	4
+Q29	04-Ferro	Sobreviva nas cavernas	Objetivo de progressao da campanha.	kill:cave_hostile:12	1380	iron_ore	4
+Q30	04-Ferro	Explore terreno distante	Objetivo de progressao da campanha.	explore:distant_region:1	1425	iron_ore	4
+Q31	04-Ferro	Colete mais ferro	Objetivo de progressao da campanha.	collect:iron_ore:24	1470	iron_ore	4
+Q32	04-Ferro	Prepare suprimentos da expedicao	Objetivo de progressao da campanha.	craft:healing_supply:5	1515	iron_ore	4
+Q33	05-Templo	Encontre o templo	Objetivo de progressao da campanha.	explore:forgotten_temple:1	1560	healing_supply	2
+Q34	05-Templo	Investigue as ruinas	Objetivo de progressao da campanha.	explore:temple_ruins:1	1605	healing_supply	2
+Q35	05-Templo	Descubra o laboratorio Goblin	Objetivo de progressao da campanha.	explore:goblin_lab:1	1650	healing_supply	2
+Q36	05-Templo	Derrote guardas do laboratorio	Objetivo de progressao da campanha.	kill:goblin_lab_guard:8	1695	healing_supply	2
+Q37	05-Templo	Colete pistas	Objetivo de progressao da campanha.	collect:goblin_clue:3	1740	healing_supply	2
+Q38	05-Templo	Prepare armamento para a ruptura	Objetivo de progressao da campanha.	craft:advanced_weapon:1	1785	healing_supply	2
+Q39	05-Templo	Desbloqueie a ruptura	Objetivo de progressao da campanha.	explore:goblin_breach_entry:1	1830	healing_supply	2
+Q40	06-Ruptura	Atravesse a ruptura	Objetivo de progressao da campanha.	explore:goblin_breach:1	1875	food	2
+Q41	06-Ruptura	Explore Guttering Hollows	Objetivo de progressao da campanha.	explore:guttering_hollows:1	1920	food	2
+Q42	06-Ruptura	Enfrente Goblins	Objetivo de progressao da campanha.	kill:goblin:12	1965	food	2
+Q43	06-Ruptura	Encontre novas ruinas	Objetivo de progressao da campanha.	explore:goblin_ruins:1	2010	food	2
+Q44	06-Ruptura	Recolha materiais de ruptura	Objetivo de progressao da campanha.	collect:breach_resource:8	2055	food	2
+Q45	06-Ruptura	Obtenha uma Runestone	Objetivo de progressao da campanha.	collect:runestone:1	2100	food	2
+Q46	06-Ruptura	Descubra a entrada Deepworks	Objetivo de progressao da campanha.	explore:deepworks_entrance:1	2145	food	2
+Q47	07-Deepworks	Entre em Deepworks	Objetivo de progressao da campanha.	explore:deepworks:1	2190	breach_resource	2
+Q48	07-Deepworks	Limpe as primeiras salas	Objetivo de progressao da campanha.	kill:deepworks_enemy:10	2235	breach_resource	2
+Q49	07-Deepworks	Alcance o nucleo	Objetivo de progressao da campanha.	explore:deepworks_core:1	2280	breach_resource	2
+Q50	07-Deepworks	Enfrente os guardioes	Objetivo de progressao da campanha.	kill:deepworks_elite:4	2325	breach_resource	2
+Q51	07-Deepworks	Derrote Feastmaster	Objetivo de progressao da campanha.	boss:feastmaster:1	2370	healing_supply	3
+Q52	07-Deepworks	Colete equipamentos para a luta final	Objetivo de progressao da campanha.	collect:endgame_supply:6	2415	breach_resource	2
+Q53	07-Deepworks	Encontre o caminho do chefe	Objetivo de progressao da campanha.	explore:gobliterator_arena:1	2460	breach_resource	2
+Q54	08-Final	Prepare consumiveis	Objetivo de progressao da campanha.	craft:healing_supply:10	2505	runestone	2
+Q55	08-Final	Ajuste equipamento final	Objetivo de progressao da campanha.	craft:endgame_gear:1	2550	runestone	2
+Q56	08-Final	Enfrente elite da ultima area	Objetivo de progressao da campanha.	kill:final_elite:8	2595	runestone	2
+Q57	08-Final	Descubra sala do chefe	Objetivo de progressao da campanha.	explore:final_boss_room:1	2640	runestone	2
+Q58	08-Final	Derrote Gobliterator	Objetivo de progressao da campanha.	boss:gobliterator:1	2685	victory_token	1
+Q59	08-Final	Registre a conclusao da campanha	Objetivo de progressao da campanha.	milestone:chapter1_complete:1	2730	healing_supply	3
+Q60	08-Final	Reivindique sua vitoria	Objetivo de progressao da campanha.	milestone:victory_claim:1	2775	healing_supply	3

@@ -1,0 +1,36 @@
+$Common = "../Common.ui";
+Group { Anchor: (Width: 820, Height: 690); Background: #101d2a(0.98); Padding: (Full: 24); LayoutMode: Top;
+Label { Text: "LUTI RPG"; Anchor: (Height: 42); Style: (FontSize: 30, TextColor: #edbd69, RenderBold: true); }
+Label #Status { Anchor: (Height: 45); Style: (FontSize: 17, TextColor: #ffffff, Wrap: true); }
+Label { Text: "Todas as classes podem usar qualquer arma, armadura e magia."; Anchor: (Height: 30); Style: (FontSize: 15, TextColor: #a9bdcc); }
+Group #Classes { LayoutMode: Top;
+  $Common.@TextButton #ClassGUERREIRO { @Text = "GUERREIRO"; Anchor: (Height: 36, Bottom: 4); }
+  $Common.@TextButton #ClassPALADINO { @Text = "PALADINO"; Anchor: (Height: 36, Bottom: 4); }
+  $Common.@TextButton #ClassMAGO { @Text = "MAGO"; Anchor: (Height: 36, Bottom: 4); }
+  $Common.@TextButton #ClassASSASSINO { @Text = "ASSASSINO"; Anchor: (Height: 36, Bottom: 4); }
+  $Common.@TextButton #ClassARQUEIRO { @Text = "ARQUEIRO"; Anchor: (Height: 36, Bottom: 4); }
+}
+Group #Stats { LayoutMode: Top;
+Group #RowFORCA { LayoutMode: Left; Anchor: (Height: 38); Label #ValueFORCA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddFORCA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowVITALIDADE { LayoutMode: Left; Anchor: (Height: 38); Label #ValueVITALIDADE { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddVITALIDADE { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowRESISTENCIA { LayoutMode: Left; Anchor: (Height: 38); Label #ValueRESISTENCIA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddRESISTENCIA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowFURIA { LayoutMode: Left; Anchor: (Height: 38); Label #ValueFURIA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddFURIA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowPOTENCIA { LayoutMode: Left; Anchor: (Height: 38); Label #ValuePOTENCIA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddPOTENCIA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowPROTECAO { LayoutMode: Left; Anchor: (Height: 38); Label #ValuePROTECAO { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddPROTECAO { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowFE { LayoutMode: Left; Anchor: (Height: 38); Label #ValueFE { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddFE { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowPODERARCANO { LayoutMode: Left; Anchor: (Height: 38); Label #ValuePODERARCANO { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddPODERARCANO { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowMANA { LayoutMode: Left; Anchor: (Height: 38); Label #ValueMANA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddMANA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowAGILIDADE { LayoutMode: Left; Anchor: (Height: 38); Label #ValueAGILIDADE { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddAGILIDADE { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowPRECISAO { LayoutMode: Left; Anchor: (Height: 38); Label #ValuePRECISAO { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddPRECISAO { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowDESTREZA { LayoutMode: Left; Anchor: (Height: 38); Label #ValueDESTREZA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddDESTREZA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+Group #RowPONTARIA { LayoutMode: Left; Anchor: (Height: 38); Label #ValuePONTARIA { Anchor: (Width: 580); Style: (FontSize: 17, TextColor: #ffffff, VerticalAlignment: Center); } $Common.@TextButton #AddPONTARIA { @Text = "+1"; Anchor: (Width: 80, Height: 32); } }
+}
+Label { Text: "DIARIO"; Anchor: (Height: 32, Top: 10); Style: (FontSize: 20, TextColor: #edbd69); }
+Label #Journal { Anchor: (Height: 100); Style: (FontSize: 16, TextColor: #cbd9e4, Wrap: true); }
+$Common.@TextButton #Claim { @Text = "RESGATAR KIT / RECOMPENSAS"; Anchor: (Height: 42, Bottom: 8); }
+$Common.@TextButton #Runes { @Text = "RUNAS / HABILIDADES"; Anchor: (Height: 38, Bottom: 8); }
+$Common.@TextButton #Close { @Text = "FECHAR"; Anchor: (Height: 38); }
+}
+
+
+

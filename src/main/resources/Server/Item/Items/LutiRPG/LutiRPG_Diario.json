@@ -1,0 +1,15 @@
+{
+  "TranslationProperties": { "Name": "server.items.LutiRPG_Diario.name", "Description": "server.items.LutiRPG_Diario.description" },
+  "Icon": "Icons/ItemsGenerated/Weapon_Spellbook_Grimoire_Brown.png",
+  "Model": "Items/Weapons/Spellbook/Grimoire.blockymodel",
+  "Texture": "Items/Weapons/Spellbook/Grimoire_Brown_Texture.png",
+  "PlayerAnimationsId": "Item",
+  "Quality": "Common",
+  "MaxStack": 1,
+  "DropOnDeath": false,
+  "Interactions": {
+    "Primary": { "Interactions": [ { "Type": "LutiRPGMenu" } ] },
+    "Secondary": { "Interactions": [ { "Type": "LutiRPGMenu" } ] }
+  },
+  "Tags": { "Type": [ "LutiRPGJournal" ] }
+}

@@ -1,0 +1,12 @@
+Group {
+  Group { Anchor: (Top: 70, Right: 20, Width: 420, Height: 230); Background: #101d2a(0.82); Padding: (Full: 14); LayoutMode: Top;
+    Label { Text: "LUTI RPG — MISSÃO ATUAL"; Anchor: (Height: 26); Style: (FontSize: 16, TextColor: #edbd69, RenderBold: true); }
+    Label #RpgHudText { Anchor: (Height: 150); Style: (FontSize: 16, TextColor: #eddfc6, Wrap: true); }
+    Label { Text: "Diário na hotbar: clique para abrir os status"; Anchor: (Height: 26); Style: (FontSize: 13, TextColor: #a9bdcc, Wrap: true); }
+  }
+  Group { Anchor: (Bottom: 160, Width: 500, Height: 70); Background: #101d2a(0.85); Padding: (Full: 10); LayoutMode: Top;
+    Label #XpText { Anchor: (Height: 22); Style: (FontSize: 15, TextColor: #edbd69, HorizontalAlignment: Center); }
+    Group { Anchor: (Height: 10); Background: #283747; Group #XpFill { Anchor: (Left: 0, Top: 0, Bottom: 0, Width: 0); Background: #c99b42; } }
+    Label #StatusHint { Anchor: (Height: 20); Style: (FontSize: 12, TextColor: #b9cedb, HorizontalAlignment: Center); }
+  }
+}
